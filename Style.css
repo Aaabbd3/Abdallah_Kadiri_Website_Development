@@ -33,7 +33,7 @@ td {
 
 
 h1 {
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
 }
 
@@ -62,8 +62,13 @@ div {
     width: 1000px;
 }
 
-img {
-    border: 2px, double, black;
+#LoLeft, #LoRight {
+    width: 80px;
+    height: 80px;
+}
+
+#LogoHead {
+    align-items: center;
 }
 
 #left {
@@ -134,4 +139,5 @@ li a:hover, #Drop:hover #Btn {
 
 #Drop:hover #Menu {
     display: block;
+
 }
